@@ -14,4 +14,4 @@ After that,
 
 You can play around with /index.html to see the effects of your changes.
 
-For shring CSS file you have to change tailwind.config.js and change purse >  enabled: true,
+# For shring CSS file you have to change tailwind.config.js and change purse >  enabled: true,
