@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/tailwind.css">
     <title>Tailwind Project</title>
 </head>
+
 <body>
-    <h1 class="text-3xl md:text-4xl lg:text-6xl">
-        Welcome to Tailwind Project
-    </h1>
+
+    <section class="bg-cover bg-center min-h-screen w-full flex items-center justify-center p-4"
+        style="background-image: url('https://images.pexels.com/photos/1183021/pexels-photo-1183021.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');">
+        <div class="max-w-3xl text-center py-12">
+            <h1 class="text-4xl lg:text-6xl text-white font-medium leading-none">
+                Welcome to Tailwind Project
+            </h1>
+            <p class="text-lg lg:text-xl text-paragraph pt-8 hidden">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas atque ullam at.
+            </p>
+            <div class="mt-8">
+                <a href="https://www.linkedin.com/in/soogoodadnan" target="_blank">
+                    <button
+                        class="appearance-none focus:outline-none border w-40 h-12 text-sm bg-customred hover:bg-white text-white hover:text-gray-800 tracking-wider font-medium rounded-sm transform -skew-y-4 rotate-4 transition-all duration-500 ease-in-out">
+                        About me
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
 </body>
+
 </html>
